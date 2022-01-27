@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v1.0.2 (2022-01-27)
+
+
 ## v1.0.1 (2022-01-27)
 ### Documentation
 * Update packages in toml ([`57edb89`](https://github.com/UBC-MDS/coordgeompy/commit/57edb89cac9215772c8200554ac46aa7ff89bbcf))
