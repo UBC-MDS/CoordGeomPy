@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "coordgeompy"
-version = "1.0.0"
+version = "1.0.1"
 description = "A simple coordinate geometry helper package"
 authors = ["Jordan Casoli, Nico Van Den Hooff, Arlin Cherian and Zheren Xu"]
 license = "MIT"
