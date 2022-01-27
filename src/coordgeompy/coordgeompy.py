@@ -3,11 +3,9 @@ import numpy as np
 
 def dist_pll_lines_2d(m, b1, b2):
     """Finding the distance between two parallel lines.
-
     The distance between two parallel lines is the distance between the points where a perpendicular line intersects.
     This function will find that distance (d). The parameters of the function can be obtained from the equation of a parallel
     line y = mx + b.
-
     Parameters
     ----------
     m  : float
@@ -17,12 +15,10 @@ def dist_pll_lines_2d(m, b1, b2):
         intercept of line 1 where y = mx + b1
     b2 : float
         intercept of line 2 where y = mx + b2
-
     Returns
     -------
     float
         The distance d between two parallel lines.
-
     Examples
     --------
     >>> dist_pll_lines_2d(3.0, 4.5, 2.5)
@@ -48,9 +44,7 @@ def dist_pll_lines_2d(m, b1, b2):
 
 def get_distance(x1, x2, metric="Euclidean", p=None):
     """Calculates the distance between two n dimensional vectors.
-
     Possible metrics include: Euclidean, Manhattan, Chebyshev, or Minkowski.
-
     Parameters
     ----------
     x1 : list of int or float
@@ -63,12 +57,10 @@ def get_distance(x1, x2, metric="Euclidean", p=None):
     p : int, default=None
         The order of Minkowski distance to calculate.  Only required if `metric` is
         set to "Minkowski".
-
     Returns
     -------
     float
         The relevant distance between the two vectors.
-
     Examples
     --------
     >>> x1 = [1, 2, 3, 4]
@@ -122,14 +114,11 @@ def get_distance(x1, x2, metric="Euclidean", p=None):
 
 def is_intersection_3d(m1, b1, m2, b2):
     """Determines whether two infinite lines intersect in 3-dimensional space.
-
     Note that if two parallel lines are provided, they will be considered as NOT intersecting.
     Also note that this function expects integer values for x, y, z coordinates. Values will be rounded
     if integer values are not provided.
-
     This algorithm uses the following idea to test for intersection: Two (non parallel) lines intersect
     in 3d space if and only if they are coplanar.
-
     Parameters
     ----------
     m1 : list or tuple of floats
@@ -144,12 +133,10 @@ def is_intersection_3d(m1, b1, m2, b2):
     b2 : list or tuple of floats
         Any point on line 2. This list corresponds to a point (x2, y2, z2) that lies on line 2.
         This point must lie on line 2.
-
     Returns
     -------
     bool
         True if there is intersection, False if not.
-
     Examples
     --------
     >>> m1 = (1, 0, 0)
@@ -158,7 +145,6 @@ def is_intersection_3d(m1, b1, m2, b2):
     >>> b2 = (0, 0, 0)
     >>> is_intersection_3d(m1, b1, m2, b2)
     True
-
     >>> m3 = (1, 3, -1)
     >>> m4 = (2, 1, 4)
     >>> b3 = (0, -2, 4)
