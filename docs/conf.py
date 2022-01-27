@@ -6,7 +6,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u"coordgeompy"
+project = u"CoordGeomPy"
 copyright = u"2022, Jordan Casoli, Nico Van Den Hooff, Arlin Cherian and Zheren Xu"
 author = u"Jordan Casoli, Nico Van Den Hooff, Arlin Cherian and Zheren Xu"
 

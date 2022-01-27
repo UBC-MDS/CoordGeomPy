@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "coordgeompy"
+name = "CoordGeomPy"
 version = "1.0.0"
 description = "A simple coordinate geometry helper package"
 authors = ["Jordan Casoli, Nico Van Den Hooff, Arlin Cherian and Zheren Xu"]
 license = "MIT"
 readme = "README.md"
 packages = [
-    { include = "coordgeompy"},
+    { include = "CoordGeomPy"},
 ]
 
 [tool.poetry.dependencies]
