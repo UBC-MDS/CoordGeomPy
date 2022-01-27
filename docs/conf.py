@@ -16,8 +16,8 @@ author = u"Jordan Casoli, Nico Van Den Hooff, Arlin Cherian and Zheren Xu"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "sphinx.ext.napoleon",
     "myst_nb",
+    "sphinx.ext.napoleon",
     "autoapi.extension",
     "sphinx.ext.viewcode",
 ]
