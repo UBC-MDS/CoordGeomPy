@@ -17,8 +17,8 @@ author = u"Jordan Casoli, Nico Van Den Hooff, Arlin Cherian and Zheren Xu"
 # ones.
 extensions = [
     "myst_nb",
-    "sphinx.ext.napoleon",
     "autoapi.extension",
+    "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
 ]
 autoapi_dirs = ["../src"]
