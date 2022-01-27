@@ -30,7 +30,7 @@ While we are not really reinventing the wheel on coordinate geometry calculation
 
 ## Documentation 
 
-The official documentation is hosted on Read the Docs: (tbd)
+The official documentation is hosted on [Read the Docs](https://coordgeompy.readthedocs.io/en/latest/)
 ## Contributing
 
 Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
