@@ -6,6 +6,10 @@ build:
   image: testing
 
 # Configuration
+sphinx:
+  configuration: docs/conf.py
+  fail_on_warning: false
+  
 python:
   version: 3.9
   install:
