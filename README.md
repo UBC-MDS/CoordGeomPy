@@ -1,3 +1,5 @@
+[![ci-cd](https://github.com/UBC-MDS/coordgeompy/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/coordgeompy/actions/workflows/ci-cd.yml)
+
 # CoordGeomPy
 
 A simple coordinate geometry helper package. This package is developed for the UBC MDS DSCI 524 Collaborative Software Development course at the University of British Columbia.
