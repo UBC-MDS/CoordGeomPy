@@ -2,7 +2,7 @@
 [![codecov](https://codecov.io/gh/UBC-MDS/CoordGeomPy/branch/main/graph/badge.svg?token=9jgbpldNoe)](https://codecov.io/gh/UBC-MDS/CoordGeomPy)
 [![Documentation Status](https://readthedocs.org/projects/coordgeompy/badge/?version=latest)](https://coordgeompy.readthedocs.io/en/latest/?badge=latest)
 
-# CoordGeomPy
+# coordgeompy
 
 A simple coordinate geometry helper package. This package is developed for the UBC MDS DSCI 524 Collaborative Software Development course at the University of British Columbia.
 
