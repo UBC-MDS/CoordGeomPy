@@ -1,3 +1,7 @@
+[![ci-cd](https://github.com/UBC-MDS/coordgeompy/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/coordgeompy/actions/workflows/ci-cd.yml)
+[![codecov](https://codecov.io/gh/UBC-MDS/CoordGeomPy/branch/main/graph/badge.svg?token=9jgbpldNoe)](https://codecov.io/gh/UBC-MDS/CoordGeomPy)
+[![Documentation Status](https://readthedocs.org/projects/coordgeompy/badge/?version=latest)](https://coordgeompy.readthedocs.io/en/latest/?badge=latest)
+
 # CoordGeomPy
 
 A simple coordinate geometry helper package. This package is developed for the UBC MDS DSCI 524 Collaborative Software Development course at the University of British Columbia.
@@ -30,7 +34,7 @@ While we are not really reinventing the wheel on coordinate geometry calculation
 
 ## Documentation 
 
-The official documentation is hosted on Read the Docs: (tbd)
+The official documentation is hosted on [Read the Docs](https://coordgeompy.readthedocs.io/en/latest/)
 ## Contributing
 
 Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
