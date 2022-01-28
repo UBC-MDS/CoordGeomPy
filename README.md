@@ -30,7 +30,17 @@ Function 4 `is_orthogonal`: This function allows a user to determine whether two
 While we are not really reinventing the wheel on coordinate geometry calculations with our package, we used this as an opportunity to gain some experience in understanding how these calculations function in python language. There are existing packages that execute similar functions. For example, [SymPy](https://www.sympy.org/en/index.html) is a Python library that contains comprehensive mathematical functions including intersection of lines, shortest distance between a point and a line etc. We also found a package [coordinate-geometry 1.0.02](https://pypi.org/project/coordinate-geometry/) that had similar functions to calculating distance between two points, a point and a line, area of a triangle etc. [Scipy's](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.cdist.html) `scipy.spatial.distance.cdist` functions similarly to Function 2. 
 ## Usage
 
-- TODO
+```
+import numpy as np
+from coordgeompy.coordgeompy import dist_pll_lines_2d
+from coordgeompy.coordgeompy import get_distance
+from coordgeompy.coordgeompy import is_intersection_3d
+from coordgeompy.coordgeompy import is_orthogonal
+
+x1 <- c(1, 2, 3, 4)
+x2 <- c(5, 6, 7, 8)
+get_distance(x1, x2, metric="Euclidean")
+```
 
 ## Documentation 
 
@@ -50,8 +60,8 @@ We welcome and recognize all contributors. Names and GitHub @usernames listed be
 
 ## License
 
-`CoordGeomPy` was created by Jordan Casoli, Nico Van Den Hooff, Arlin Cherian and Zheren Xu. It is licensed under the terms of the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+`coordgeompy` was created by Jordan Casoli, Nico Van Den Hooff, Arlin Cherian and Zheren Xu. It is licensed under the terms of the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Credits
 
-`CoordGeomPy` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+`coordgeompy` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
