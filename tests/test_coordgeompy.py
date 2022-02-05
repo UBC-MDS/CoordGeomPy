@@ -66,7 +66,7 @@ def test_dist_pll_lines_2d_int():
     assert round(dist_pll_lines_2d(m, b1, b2), 2) == 2.24
 
 def test_dist_pll_lines_2d_float():
-    """Tests the distance between two parallel lines with integer input"""
+    """Tests the distance between two parallel lines with float input"""
     m = 3.0
     b1 = 4.5
     b2 = 2.5
