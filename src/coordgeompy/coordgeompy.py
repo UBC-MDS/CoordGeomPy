@@ -8,10 +8,10 @@ def dist_pll_lines_2d(m, b1, b2):
     line y = mx + b.
     Parameters
     ----------
-    m  : float
+    m  : float, int
         slope of two parallel lines which are the same, i.e., slope of
         line 1, m1 = -(1/m2)
-    b1 : float
+    b1 : float, int
         intercept of line 1 where y = mx + b1
     b2 : float
         intercept of line 2 where y = mx + b2
